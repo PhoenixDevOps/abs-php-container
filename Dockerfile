@@ -9,7 +9,7 @@ RUN \
     apt-get update && \
     apt-get -y install wget && \
     wget https://github.com/aws/aws-sdk-php/releases/download/2.8.18/aws.phar && \
-    chmod 777 /root/aws.phar
+    chmod 777 aws.phar
 
 # Listen on port 80
 EXPOSE 80
