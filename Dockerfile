@@ -4,7 +4,7 @@ FROM php:5.6-apache
 ADD app/ /var/www/html/
 
 # Install composer
-WORKDIR /root
+WORKDIR /var/www/html
 RUN \
     apt-get update && \
     apt-get -y install wget && \
