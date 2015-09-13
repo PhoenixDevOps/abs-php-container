@@ -1,2 +1,2 @@
-/logs/access.log
-/logs/error.log
+/app/logs/access.log
+/app/logs/error.log
