@@ -1,4 +1,4 @@
-<?
+<?php
   require 'aws.phar';
 
   $ec2_instance = \Aws\Common\InstanceMetadata\InstanceMetadataClient::factory()

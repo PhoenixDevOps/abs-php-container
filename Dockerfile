@@ -9,7 +9,7 @@ RUN \
     chmod 777 aws.phar
 
 # Copy our source code to the container
-ADD app/ /var/www/html/
+ADD app/www/public /var/www/html/
 
 # Listen on port 80
 EXPOSE 80
